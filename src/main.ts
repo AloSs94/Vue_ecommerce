@@ -1,14 +1,8 @@
-import './assets/main.css'
-
 import { createApp } from 'vue'
-import { createPinia } from 'pinia'
 
-import App from './App.vue'
-import router from './router'
 
-const app = createApp(App)
+import Contador from './ejemplos/Composition.vue' // se encarga de importar nuestra aplicación
 
-app.use(createPinia())
-app.use(router)
+const app = createApp(Contador) //crea nuestra app
 
-app.mount('#app')
+app.mount('#app') //monta nuestra app

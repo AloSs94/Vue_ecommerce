@@ -1,5 +1,25 @@
 # vue3-ecommerce
 
+Tienda en línea (E-commerce)
+-Tienda de CD's, DVD's y  mercancia
+## Entidades (tipos de datos de nuestro proyecto)
+
+    # Producto
+     -precio
+     -descripción
+     -imagen
+
+    # Categoria
+        -nombre
+        -descripción
+
+    # Cart
+        -productos
+
+## Paginas
+    Home: Se verán los nuevos lanzamientos
+    productos: todos los productos y su estado (disponible, no disponible)
+    
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
